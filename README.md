@@ -643,6 +643,6 @@ y ahora nuestro dashboard tendrá la gráfica de la temperatura.
 
 Para agregar más Widgets a nuestro dashboard se sigue el mismo procedimiento. 
 
-### Thinger.io
+### Thinger io
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thinger1.png?raw=true)
