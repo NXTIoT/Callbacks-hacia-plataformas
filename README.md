@@ -649,10 +649,9 @@ Thinger.io es una plataforma con librerías de código abierto que permite gesti
 
 -	Permite conectar un máximo de 3 dispositivos.
 -	No existe limitación en cuanto a los recursos de cada dispositivo, es decir el número de parámetros a medir por los sensores que tenga conectados (más allá de su propia capacidad) o el número de parámetros a enviar a los dispositivos desde la plataforma.
--	Los valores de los parámetros recibidos en la plataforma se pueden almacenar hasta en un máximo de 10 campos (Data Buckets) diferentes. Cada Data Bucket puede almacenar datos de múltiples sensores, con una frecuencia máxima de un minuto (un almacenamiento cada minuto). Estos datos son accesibles y actualmente no hay limitaciones ni respecto al tiempo ni al tamaño de los datos.
--	Los valores de los sensores se pueden visualizar hasta un máximo de 10 pantallas gráficas de visualización de datos (Dashboards). Estos datos pueden proceder de los Data Buckets o ser lecturas que se empiezan a tomar desde el momento en que abrimos cada Dashboard.
--	Se pueden establecer hasta 10 Endpoints que son las “marcas” para interactuar con las aplicaciones de los servicios en línea.
+-	Los valores de los parámetros recibidos en la plataforma se pueden almacenar hasta en un máximo de 10 campos (Data Buckets) diferentes. Cada Data Bucket puede almacenar datos de múltiples sensores, con una frecuencia máxima de un minuto (un almacenamiento cada minuto). 
+-	Los valores de los sensores se pueden visualizar hasta un máximo de 10 pantallas gráficas de visualización de datos (Dashboards).
 
-Creamos una cuenta en [Thinger.io](https://thinger.io/)
+Creamos una cuenta en [Thinger.io](https://thinger.io/). Una vez creada la cuenta, veremos la pantalla principal. 
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thinger1.png?raw=true)
