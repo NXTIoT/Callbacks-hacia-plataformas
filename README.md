@@ -2,9 +2,9 @@
 
 -	[Creación de Callbacks](#creación-de-callbacks)
 
-	-	[Callback hacia un correo](#callback-hacia-un-correo)
+-	[Callback hacia un correo](#callback-hacia-un-correo)
 	
-	-	[Integración en Losant](#integración-en-losant)
+-	[Losant](#losant)
 
 		-	[Webhook](#webhook)
 	
@@ -16,7 +16,7 @@
 
 		-	[Dashboard Losant](#dashboard-losant)
 		
-	-	[Integración con Microsoft Azure](#integración-con-microsoft-azure)
+-	[Microsoft Azure](#microsoft-azure)
 	
 		-	[Configuración del Callback](#configuración-del-callback)
 		
@@ -24,19 +24,22 @@
 		
 		-	[Power BI](#power-bi)
 	
-	-	[Integración con Amazon Web Services](#integración-con-amazon-web-services)
+-	[Amazon Web Services](#amazon-web-services)
 	
 		-	[Callback en AWS](#callback-aws)
 	
 		-	[Creación de una Tabla en DynamoDB](#creación-de-una-tabla-en-dynamodb)
 	
-	-	[Integración con Ubidots](#integración-con-ubidots)
+-	[Ubidots](#ubidots)
 	
 		- 	[Callback hacia Ubidots](#callback-hacia-ubidots)
 
 		-	[Visualización de la información en Ubidots](#visualización-de-la-información-en-ubidots)
 
 		- 	[Dashboard Ubidots](#dashboard-ubidots)
+		
+-	[Thinger.io](#thinger.io)
+		
 
 Creación de Callbacks
 ---------------------
@@ -63,7 +66,7 @@ Configuramos el callback de la siguiente manera
 
 Damos click en OK. Con eso nuestro Callback esta hecho. La proxima vez que mandemos un mensaje de nuestro devkit, nos llegara un correo con el "Subject" que nosotros elegimos asi como la informacion que recibimos.
 
-### Integración en Losant
+### Losant
 
 Para esta parte utilizaremos el ejemplo del sensor de temperatura anterior. 
 
@@ -250,7 +253,7 @@ En Label podemos colocar las unidades de la informacion que estemos mostrando o 
 
 ![dashboard2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dashboard2.png?raw=true)
 
-### Integración con Microsoft Azure
+### Microsoft Azure
 
 En esta sección realizaremos un Callback hacia Microsoft Azure utilizando el ejemplo del sensor de temperatura, para mandar la información y desplegarla en un dashboard donde podamos observar una gráfica de la temperatura con respecto al tiempo. Lo que necesitamos es:
 <br /> -Una cuenta en [Microsoft Azure](https://azure.microsoft.com/es-mx/) 
@@ -425,7 +428,7 @@ Por último, para detener el envio de datos, regresamos a Azure y seleccionamos 
 
 ![azure32](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure32.png?raw=true)
 
-### Integración con Amazon Web Services
+### Amazon Web Services
 
 Ahora es el turno de hacer la integración con la plataforma de Amazon Web Services (AWS). Se utilizará el ejemplo del sensor de temperatura, sin embargo puede utilizarse el ejemplo del sensor ultrasónico.
 
@@ -556,7 +559,7 @@ Finalmente, si nos regresamos a DynamoDB->Tables->sigfox->Items, podremos ver lo
 
 ![aws27](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws27.png?raw=true)
 
-### Integración con Ubidots
+### Ubidots
 
 Ahora toca la integración con la plataforma Ubidots. Al igual que en los ejemplos pasados, en este también se utilizará la práctica del sensor de temperatura. Lo primero que se debe hacer es crear una cuenta en el siguiente link [ubidots](https://app.ubidots.com/accounts/signup/).
 
