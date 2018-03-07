@@ -39,6 +39,10 @@
 	- 	[Dashboard Ubidots](#dashboard-ubidots)
 		
 -	[Thinger io](#thinger-io)
+
+	- 	[Callback hacia Thinger.io](#callback-hacia-thinger.io)
+	
+	-	[Dashboard Thinger io](#dashboard-thinger-io)
 		
 
 Creación de Callbacks
