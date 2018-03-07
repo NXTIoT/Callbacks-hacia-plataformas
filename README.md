@@ -738,9 +738,15 @@ habilitamos el switch de la derecha y seleccionamos "Add widget"
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin105.png?raw=true)
 
+realizamos la configuracion y lo guardamos
+
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin11.png?raw=true)
 
+y en nuestro dashboard veremos la grafica de la temperatura
+
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin12.png?raw=true)
+
+podemos agregar mas widgets para visualizar mas informacion
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin13.png?raw=true)
 
