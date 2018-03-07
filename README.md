@@ -643,7 +643,8 @@ y ahora nuestro dashboard tendrá la gráfica de la temperatura.
 
 Para agregar más Widgets a nuestro dashboard se sigue el mismo procedimiento. 
 
-### Thinger io
+Thinger io
+----------
 
 Thinger.io es una plataforma con librerías de código abierto que permite gestionar multitud de dispositivos a través de Internet. Es gratuita para makers con las siguientes limitaciones:
 
@@ -656,17 +657,48 @@ Creamos una cuenta en [Thinger.io](https://thinger.io/). Una vez creada la cuent
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/tngr.png?raw=true)
 
+Seleccionamos Device buckets->Add bucket
+
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin2.png?raw=true)
+
+configuramos nuestro bucket. Escribimos un ID para identificarlo, un nombre y una descripción. Lo habilitamos y en Data Source seleccionamos "From Write Call". Click en Add bucket
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin3.png?raw=true)
 
+Ahora necesitamos crer el token necesario para poder conectarnos con el backend. Seleccionamos "Access Tokens"
+
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin4.png?raw=true)
+
+Escribimos un ID y un nombre para identificarlos y en la parte de "Tokens Permissions" damos click en +Add  
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin5.png?raw=true)
 
+realizamos la siguiente configuración
+-	Select Permission Type -> Bucket
+-	Access -> Specific resource -> nuestro bucket creado (Devkit_NXTIoT)
+-	Actions -> Select specific action -> WriteBucket
+
+click en Add
+
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin6.png?raw=true)
 
+ahora ya tenemos creado nuestro "Access token". Este Token lo necesitaremos para la configuracion en el backend
+
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin7.png?raw=true)
+
+### Callback hacia Thinger.io
+
+Enseguida creamos el callback. Vamos al backend a nuestro dispositivo y damos click en el DEVICE TYPE.
+
+![ubi4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi4.png?raw=true)
+
+nos desplegara la información sobre el DEVICE TYPE. Selecionaremos CALLBACKS en el panel izquierdo
+
+![ubi5](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi5.png?raw=true)
+
+y seleccionamos CUSTOM CALLBACK
+
+![ubi6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi6.png?raw=true)
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin8.png?raw=true)
 
