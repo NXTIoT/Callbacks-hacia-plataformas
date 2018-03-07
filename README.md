@@ -710,15 +710,15 @@ realizamos la siguiente configuracion
 	-	Authorization: Bearer "Your Token"
 -	Content type: Application/json
 -	Body:
-		{
-			"device" : "´{device}",
-			"snr" : {snr},
-			"rssi" : {rssi},
-			"station" : "{station}",
-			"latitude" : "lat",
-			"longitud" : "lng"
-			"temperature" : {customData#Temp}
-		}
+		<br />{
+		<br />	"device" : "´{device}",
+		<br />	"snr" : {snr},
+		<br />	"rssi" : {rssi},
+		<br />	"station" : "{station}",
+		<br />	"latitude" : "lat",
+		<br />	"longitud" : "lng"
+		<br />	"temperature" : {customData#Temp}
+		<br />}
 Damos click en "OK"
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin8.png?raw=true)
