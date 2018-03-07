@@ -722,19 +722,19 @@ realizamos la siguiente configuracion
 		
 Damos click en "OK"
 
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin8.png?raw=true)
+
 ### Dashboard Thinger io
 
 Una vez realizado el callback, presionamos el boton para enviar un mensaje. Si nos vamos a nuestro bucket creado, veremos los mensajes enviados con nuestro Devkit
 
-![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin8.png?raw=true)
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin9.png?raw=true)
 
 Damos click en "Dashboards" en el panel izquierdo. Escribimos la informacion que nos pida y damos click en "Add dashboard"
 
-![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin9.png?raw=true)
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin10.png?raw=true)
 
 habilitamos el switch de la derecha y seleccionamos "Add widget"
-
-![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin10.png?raw=true)
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin105.png?raw=true)
 
