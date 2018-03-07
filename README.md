@@ -655,3 +655,30 @@ Thinger.io es una plataforma con librerías de código abierto que permite gesti
 Creamos una cuenta en [Thinger.io](https://thinger.io/). Una vez creada la cuenta, veremos la pantalla principal. 
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/tngr.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin2.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin3.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin4.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin5.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin6.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin7.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin8.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin9.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin10.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin105.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin11.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin12.png?raw=true)
+
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin13.png?raw=true)
+
