@@ -654,4 +654,4 @@ Thinger.io es una plataforma con librerías de código abierto que permite gesti
 
 Creamos una cuenta en [Thinger.io](https://thinger.io/). Una vez creada la cuenta, veremos la pantalla principal. 
 
-![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thinger1.png?raw=true)
+![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/tngr.png?raw=true)
