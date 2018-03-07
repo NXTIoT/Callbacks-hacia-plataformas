@@ -705,7 +705,21 @@ realizamos la siguiente configuracion
 -	Custom payload config: Temp::float:32:little-endian
 -	URL pattern: la url debe tener el siguiente formato https://api.thinger.io/v1/users/{user_id}/buckets/{bucket_id}/data
 	-	{user_id} y {bucket_id} se deben cambiar de acuerdo a nuestra cuenta y a el Id de nuestro bucket. Para este ejemplo la URL quedo como https://api.thinger.io/v1/users/gpg117/buckets/Devkit_NXTIoT/data
--	
+-	Use HTTP Method: POST
+-	Headers: En esta parte es donde necesitaremos pegar el Access token que creamos
+	-	Authorization: Bearer "Your Token"
+-	Content type: Application/json
+-	Body:
+		{
+			"device" : "´{device}",
+			"snr" : {snr},
+			"rssi" : {rssi},
+			"station" : "{station}",
+			"latitude" : "lat",
+			"longitud" : "lng"
+			"temperature" : {customData#Temp}
+		}
+Damos click en "OK"
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin8.png?raw=true)
 
