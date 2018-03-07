@@ -40,7 +40,7 @@
 		
 -	[Thinger io](#thinger-io)
 
-	- 	[Callback hacia Thinger.io](#callback-hacia-thinger.io)
+	- 	[Callback hacia Thinger io](#callback-hacia-thinger-io)
 	
 	-	[Dashboard Thinger io](#dashboard-thinger-io)
 		
@@ -690,7 +690,7 @@ ahora ya tenemos creado nuestro "Access token". Este Token lo necesitaremos para
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin7.png?raw=true)
 
-### Callback hacia Thinger.io
+### Callback hacia Thinger io
 
 Enseguida creamos el callback. Vamos al backend a nuestro dispositivo y damos click en el DEVICE TYPE.
 
