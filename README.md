@@ -700,6 +700,13 @@ y seleccionamos CUSTOM CALLBACK
 
 ![ubi6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/ubi6.png?raw=true)
 
+realizamos la siguiente configuracion
+-	Type: DATA, UPLINK	Channel: URL
+-	Custom payload config: Temp::float:32:little-endian
+-	URL pattern: la url debe tener el siguiente formato https://api.thinger.io/v1/users/{user_id}/buckets/{bucket_id}/data
+	-	{user_id} y {bucket_id} se deben cambiar de acuerdo a nuestra cuenta y a el Id de nuestro bucket. Para este ejemplo la URL quedo como https://api.thinger.io/v1/users/gpg117/buckets/Devkit_NXTIoT/data
+-	
+
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin8.png?raw=true)
 
 ![thin](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/thin9.png?raw=true)
