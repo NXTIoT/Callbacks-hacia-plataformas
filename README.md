@@ -54,7 +54,7 @@ A continuación se mostrará como realizar los Callbacks hacia diferentes plataf
 
 El mas facil de los Callbacks es hacia un correo o conjunto de correos. Cada vez que llegue al backend un mensaje de nuestro dispositivo, se enviara un mensaje a los correos configurados. Para realizar el callback, damos click en el device type de nuestro dispositivo
 
-*)
+![aws1](https://raw.githubusercontent.com/NXTIoT/NXTIoT_DEVKIT/master/images/aws1.png?raw=true)
 
 en la columna del lado izquierdo damos click en "Callbacks"
 
