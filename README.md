@@ -492,7 +492,7 @@ Pegamos el "ARNRole" que obtuvimos de AWS. En "topic", escribimos el mismo que p
 <br /> "lat" : "{lat}",
 <br /> "lng" : "{lng}",
 <br /> "rssi" : "{rssi}",
-<br /> "seqNumber" : "{seqNumber}",
+<br /> "seqNumber" : "{seqNumber}"
 <br />}
 
 ![aws11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws11.png?raw=true)
