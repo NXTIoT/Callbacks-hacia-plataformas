@@ -315,7 +315,7 @@ Ahora tendremos que configurar el Callback.
 <br /> "snr" : "{snr}",
 <br />"station" : "{station}",
 <br /> "avgSignal" : "{avgSnr}",
-<br /> "seqNumber" : "{seqNumber}",
+<br /> "seqNumber" : "{seqNumber}"
 <br />}
 
 quedando como se muestra en la siguiente imagen
