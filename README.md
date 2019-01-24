@@ -511,7 +511,7 @@ damos click en "Crear tabla"
 
 ![aws13](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1001.png?raw=true)
 
-Ahora tenemos que configurar nuestra tabla. Le asignamos un nombre, escribimos "deviceid" en Partition Key, seleccionamos "Add sort key" y escribimos "timestamp" y damos click a create
+Ahora tenemos que configurar nuestra tabla. Le asignamos un nombre, escribimos "deviceid" en Partition Key, seleccionamos "Añadir clave de ordenación" y escribimos "timestamp" y damos click a "Crear"
 
 ![aws14](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1002.png?raw=true)
 
@@ -527,13 +527,17 @@ y seleccionamos "ACTUAR"
 
 ![aws17](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1005.png?raw=true)
 
+damos click en "Crear"
+
+![aws17](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1006.png?raw=true)
+
 le asignamos el mismo nombre que nuestro Stack, y agregamos una pequeña descripcion (opcional)
 
-![aws18](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws18.png?raw=true)
+![aws18](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1007.png?raw=true)
 
-en el campo "Attribute" escribimos * y en topic filter, escribimos "sigfox"
+en el campo "Instruccion de consulta de regla" escribimos SELECT * FROM 'sigfox' donde 'sigfox' es el mismo nombre del topic que pusimos en el callback 
 
-![aws19](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws19.png?raw=true)
+![aws17](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1008.png?raw=true)
 
 ahora agregamos la acción que queremos que haga con el dato que llega. Seleccionamos "Add action"
 
