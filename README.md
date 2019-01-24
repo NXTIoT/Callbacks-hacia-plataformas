@@ -507,23 +507,25 @@ Ahora que tenemos nuestro Stack creado, vamos a crear una tabla por medio de Dyn
 
 ![aws13](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws13.png?raw=true)
 
+damos click en "Crear tabla"
+
 ![aws13](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1001.png?raw=true)
 
 Ahora tenemos que configurar nuestra tabla. Le asignamos un nombre, escribimos "deviceid" en Partition Key, seleccionamos "Add sort key" y escribimos "timestamp" y damos click a create
 
-![aws14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws14.png?raw=true)
+![aws14](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1002.png?raw=true)
 
 despues de unos minutos, se habrá creado nuestra tabla
 
 ![aws15](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws15.png?raw=true)
 
-ahora debemos crear una regla que nos permita enviar enviar los datos recividos hacia nuestra tabla recien creada. Nos vamos a Services-> AWS IoT
+ahora debemos crear una regla que nos permita enviar enviar los datos recividos hacia nuestra tabla recien creada. Nos vamos a Services-> IoT Core
 
-![aws16](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws16.png?raw=true)
+![aws16](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1004.png?raw=true)
 
-y seleccionamos "ACT"
+y seleccionamos "ACTUAR"
 
-![aws17](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws17.png?raw=true)
+![aws17](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1005.png?raw=true)
 
 le asignamos el mismo nombre que nuestro Stack, y agregamos una pequeña descripcion (opcional)
 
