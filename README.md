@@ -458,9 +458,9 @@ a continuación nos abrirá una pagina donde configuraremos el STACK creado en A
 
 ![aws5](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws5.png?raw=true)
 
-ahora tenemos que configurar "Specify Details", donde necesitaremos nuestro "AccountId", el cual podemos obtener en la esquina superior derecha, en Support-> Support Center
+ahora tenemos que configurar "Specify Details", donde necesitaremos nuestro "Account number", el cual podemos obtener en la esquina superior derecha, en Support-> Support Center
 
-![aws6](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws6.png?raw=true)
+![aws13](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1010.png?raw=true)
 
 Seleccionamos un nombre para nuestro Stack. Copiamos nuestro "Account number" y lo pegamos en "AWSAccountId" en la pagina de AWS. Ahora necesitaremos el External ID que nos proporciona sigfox en el backend. Regresamos al backend, lo copiamos y lo pegamos en "ExternalId". Dejamos la region como "us-east-1" y escribimos un "Topic name". Damos click en next
 
