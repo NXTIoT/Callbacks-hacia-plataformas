@@ -482,18 +482,18 @@ Ahora falta terminar el Callback en el backend de Sigfox. Una vez que aparezca l
 
 Pegamos el "ARNRole" que obtuvimos de AWS. En "topic", escribimos el mismo que pusimos en nuestro Stack, escogemos la misma region (US East (N. Virginia)) y escribimos el siguiente json
 
-<br />{
-<br /> "device" : "{device}",
-<br /> "data" : "{data}",
-<br /> "time" : "{time}",
-<br /> "snr" : "{snr}",
-<br />"station" : "{station}",
-<br /> "avgSnr" : "{avgSnr}",
-<br /> "lat" : "{lat}",
-<br /> "lng" : "{lng}",
-<br /> "rssi" : "{rssi}",
-<br /> "seqNumber" : "{seqNumber}"
-<br />}
+	{
+ 		"device" : "{device}",
+		"data" : "{data}",
+ 		"time" : "{time}",
+ 		"snr" : "{snr}",
+		"station" : "{station}",
+	 	"avgSnr" : "{avgSnr}",
+ 		"lat" : "{lat}",
+ 		"lng" : "{lng}",
+ 		"rssi" : "{rssi}",
+ 		"seqNumber" : "{seqNumber}"
+	}
 
 ![aws11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws11.png?raw=true)
 
