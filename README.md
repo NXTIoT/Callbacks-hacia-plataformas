@@ -535,13 +535,9 @@ le asignamos el mismo nombre que nuestro Stack, y agregamos una pequeña descrip
 
 ![aws18](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1007.png?raw=true)
 
-en el campo "Instruccion de consulta de regla" escribimos SELECT * FROM 'sigfox' donde 'sigfox' es el mismo nombre del topic que pusimos en el callback 
+en el campo "Instruccion de consulta de regla" escribimos SELECT * FROM 'sigfox' donde 'sigfox' es el mismo nombre del topic que pusimos en el callback. Despues tenemos que agregar la accion que queremos que se ejecute. Damos click en "Añadir acción"
 
 ![aws17](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1008.png?raw=true)
-
-ahora agregamos la acción que queremos que haga con el dato que llega. Seleccionamos "Add action"
-
-![aws20](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws20.png?raw=true)
 
 y escogemos "DynamoDB"
 
@@ -558,6 +554,10 @@ Creamos un nuevo role dando click en "Create a new role"
 y le asignamos el nombre "dynamodbsigfox" y damos click en "Add action"
 
 ![aws24](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws24.png?raw=true)
+
+finalmente damos click en "Crear una regla"
+
+![aws17](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1009.png?raw=true)
 
 una vez creada, nos aparecera en nuestras reglas
 
