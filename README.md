@@ -507,6 +507,8 @@ Ahora que tenemos nuestro Stack creado, vamos a crear una tabla por medio de Dyn
 
 ![aws13](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws13.png?raw=true)
 
+![aws13](https://github.com/NXTIoT/Callbacks-hacia-plataformas/blob/master/images/aws1001.png?raw=true)
+
 Ahora tenemos que configurar nuestra tabla. Le asignamos un nombre, escribimos "deviceid" en Partition Key, seleccionamos "Add sort key" y escribimos "timestamp" y damos click a create
 
 ![aws14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws14.png?raw=true)
