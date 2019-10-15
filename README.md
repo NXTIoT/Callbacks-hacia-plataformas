@@ -714,7 +714,7 @@ y seleccionamos CUSTOM CALLBACK
 
 realizamos la siguiente configuracion
 -	Type: DATA, UPLINK	Channel: URL
--	Custom payload config: Temp::float:32:little-endian
+-	Custom payload config: lat::float:32:little-endian lng::float:32:little-endian temp::int:8 bat::int:8
 -	URL pattern: la url debe tener el siguiente formato https://api.thinger.io/v1/users/{user_id}/buckets/{bucket_id}/data
 	-	{user_id} y {bucket_id} se deben cambiar de acuerdo a nuestra cuenta y a el Id de nuestro bucket. Para este ejemplo la URL quedo como https://api.thinger.io/v1/users/gpg117/buckets/Devkit_NXTIoT/data
 -	Use HTTP Method: POST
@@ -723,13 +723,11 @@ realizamos la siguiente configuracion
 -	Content type: Application/json
 -	Body:
 		<br />{
-		<br />	"device" : "´{device}",
-		<br />	"snr" : {snr},
-		<br />	"rssi" : {rssi},
-		<br />	"station" : "{station}",
-		<br />	"latitude" : "lat",
-		<br />	"longitud" : "lng"
-		<br />	"temperature" : {customData#Temp}
+		<br />"device" : "{device}",
+		<br />"longitud" : "{customData#lng}",
+		<br />"latitud" : "{customData#lat}",
+		<br />"temp" : "{customData#temp}",
+		<br />"bateria" : "{customData#bat}"
 		<br />}
 		
 Damos click en "OK"
